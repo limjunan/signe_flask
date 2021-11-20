@@ -1,6 +1,5 @@
-
 # Flask dependencies
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, url_for
 app = Flask(__name__)
 # OpenCV
 import cv2
